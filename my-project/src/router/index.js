@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Events from '@/components/Event'
 import Fordata from "@/components/fordata"
+import StyleTest from "@/components/StyleTest"
 
 Vue.use(Router)
 
@@ -11,7 +12,7 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: Fordata,
+      component: StyleTest,
     }
   ]
 })
